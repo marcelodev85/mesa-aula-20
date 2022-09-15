@@ -11,3 +11,53 @@ header {
     height: 100px;
     background-color: #222222;
 }
+/* Estilização main*/
+main{
+    background-color: #ccc;
+}
+
+.destacados{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    position: relative;
+}
+.destacados h2{
+    position: absolute;
+    top: 0.5rem;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 8rem;
+    margin-top: 3rem;
+    
+}
+.cards{
+    padding-top: 2rem ;
+    background-color: #ffff;
+    width: 265px;
+    height: 322px;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+.space{
+    margin-top: 1rem;
+    background-color: #333;
+    height: 1px;
+    width: 265px;
+
+}
+.text{
+    text-align: start;
+   margin-top: 1rem;
+   padding: 1rem;
+}
+
+.cards p{
+    color: #619D00;
+    font-size: 0.8rem;
+}
