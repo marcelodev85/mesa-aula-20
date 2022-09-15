@@ -1,16 +1,63 @@
 * {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
 }
 
 /* Estilização do Header */
 
 header {
+    display: flex;
     width: 100%;
     height: 100px;
     background-color: #222222;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 35px;
 }
+
+.logo {
+    width: 150px;
+    height: 50px;
+}
+
+.menus {
+    align-items: center;
+    width: 400px;
+    height: 24px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.menus nav ul {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.menus nav ul li a {
+    padding-right: 15px;
+    text-decoration: none;
+    color: #F3F3F3;;
+}
+
+.menus nav ul li a:hover {
+    color: #D01418;
+}
+
+.carrinho:hover {
+    background-color: #F3F3F3;
+    border-radius: 50%;
+}
+
 /* Estilização main*/
 main{
     background-color: #ccc;
