@@ -46,7 +46,8 @@ header {
 .menus nav ul li a {
     padding-right: 15px;
     text-decoration: none;
-    color: #F3F3F3;;
+    color: #F3F3F3;
+    ;
 }
 
 .menus nav ul li a:hover {
@@ -59,11 +60,11 @@ header {
 }
 
 /* Estilização main*/
-main{
+main {
     background-color: #ccc;
 }
 
-.destacados{
+.destacados {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -71,40 +72,97 @@ main{
     text-align: center;
     position: relative;
 }
-.destacados h2{
+
+.destacados h2 {
     position: absolute;
     top: 0.5rem;
 }
-.img{
+
+.img {
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 8rem;
     margin-top: 3rem;
-    
+
 }
-.cards{
-    padding-top: 2rem ;
+
+.cards {
+    padding-top: 2rem;
     background-color: #ffff;
     width: 265px;
     height: 322px;
     border-radius: 5px;
     justify-content: space-between;
 }
-.space{
+
+.space {
     margin-top: 1rem;
     background-color: #333;
     height: 1px;
     width: 265px;
 
 }
-.text{
+
+.text {
     text-align: start;
-   margin-top: 1rem;
-   padding: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
 }
 
-.cards p{
+.cards p {
     color: #619D00;
     font-size: 0.8rem;
+}
+
+
+
+
+.banner {
+    background-image: url('../img/img\ 1fundo.png');
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    color: #D01418;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 47px;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner span {
+    color: #F3F3F3;
+
+}
+
+
+
+
+button {
+    color: #F3F3F3;
+    width: 220px;
+    height: 61px;
+    font-style: normal;
+    font-size: 25px;
+    line-height: 29px;
+    font-weight: 400;
+    background: #D01418;
+    margin: 40px;
+    
+    
+}
+
+button a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+button:hover {
+    background-color: #333;
 }
