@@ -154,8 +154,8 @@ button {
     font-weight: 400;
     background: #D01418;
     margin: 40px;
-    
-    
+    border-radius: 8px;
+
 }
 
 button a {
