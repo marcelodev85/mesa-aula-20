@@ -63,6 +63,7 @@ header {
 main {
     background-color: #ccc;
     padding-bottom: 4rem;
+    flex-wrap: wrap;
 }
 
 .destacados {
@@ -78,6 +79,7 @@ main {
 .destacados h2 {
     position: absolute;
     top: 0.5rem;
+    flex-wrap: wrap;
 }
 
 .img {
@@ -86,7 +88,7 @@ main {
     flex-direction: row;
     gap: 8rem;
     margin-top: 3rem;
-
+    flex-wrap: wrap;
 }
 
 .cards {
@@ -96,6 +98,7 @@ main {
     height: 322px;
     border-radius: 5px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .space {
@@ -103,7 +106,6 @@ main {
     background-color: #333;
     height: 1px;
     width: 265px;
-
 }
 
 .text {
@@ -116,9 +118,6 @@ main {
     color: #619D00;
     font-size: 0.8rem;
 }
-
-
-
 
 .banner {
     background-image: url('../img/img\ 1fundo.png');
@@ -135,16 +134,11 @@ main {
     flex-direction: column;
     display: flex;
     justify-content: center;
-
 }
 
 .banner span {
     color: #F3F3F3;
-
 }
-
-
-
 
 button {
     color: #F3F3F3;
@@ -177,7 +171,6 @@ button:hover {
     flex-direction: row;
     text-align: center;
     position: relative;
-
 }
 
 .produtos_estrelas h2 {
@@ -199,7 +192,7 @@ footer {
     display: flex;
     position: relative;
     width: 100%;
-
+    flex-wrap: wrap;
     height: 216px;
     background-color: #222222;
     /* margin-top: 4rem; */
